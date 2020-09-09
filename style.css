@@ -22,10 +22,17 @@ main {
   width: 100vw;
 }
 
+.plane {
+  position: absolute;
+  width: 100vw;
+  top: 10vw;
+  left: 0vw;
+}
+
 .cub-sitting {
   position: absolute;
-  left: 49vw;
-  top: 40vw;
   width: 10vw;
+  top: 40vw;
+  left: 49vw;
   transform: translate(-50%, -50%);
 }
