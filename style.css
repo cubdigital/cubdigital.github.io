@@ -17,6 +17,14 @@ body {
   background-position: center;
 }
 
+.cub-sitting {
+  position: absolute;
+  left: 48vw;
+  top: 65vh;
+  width: 120px;
+  transform: translate(-50%, -50%);
+}
+
 #main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 40px;
@@ -25,7 +33,7 @@ body {
   color: white;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
