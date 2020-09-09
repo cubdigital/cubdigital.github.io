@@ -36,3 +36,10 @@ main {
   left: 49vw;
   transform: translate(-50%, -50%);
 }
+
+.bee {
+  position: absolute;
+  width: 23vw;
+  top: 30vw;
+  left: 19vw;
+}
