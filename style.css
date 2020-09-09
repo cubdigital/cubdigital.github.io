@@ -7,10 +7,22 @@ html {
 }
 body {
   background-color: black;
-  color: white;
-  font-family: "Montserrat", sans-serif;
 }
+
+.above-ground {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+}
+
 #main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
   position: absolute;
   text-align: center;
   top: 50%;
