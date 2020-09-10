@@ -24,6 +24,7 @@ main {
 }
 
 .cloud-1 {
+  opacity: 0;
   position: absolute;
   width: 15vw;
   top: 8vw;
@@ -31,6 +32,7 @@ main {
 }
 
 .cloud-2 {
+  opacity: 0;
   position: absolute;
   width: 15vw;
   top: 3vw;
@@ -39,14 +41,15 @@ main {
 }
 
 .cloud-3 {
+  opacity: 0;
   position: absolute;
   width: 15vw;
   top: 6vw;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   animation: left-to-right 16s infinite linear -12s;
 }
 
 .plane {
+  opacity: 0;
   position: absolute;
   width: 30vw;
   top: 5.5vw;
@@ -55,9 +58,11 @@ main {
 
 @keyframes left-to-right {
   0% {
+    opacity: 1;
     left: -30vw;
   }
   100% {
+    opacity: 1;
     left: 110vw;
   }
 }
