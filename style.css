@@ -15,7 +15,8 @@ main {
   position: relative;
   height: 100vh;
   width: 100vw;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .ground {
@@ -25,14 +26,14 @@ main {
 .plane {
   position: absolute;
   width: 100vw;
-  top: 10vw;
-  left: 0vw;
+  top: 4vh;
+  left: 0;
 }
 
 .cub-sitting {
   position: absolute;
-  width: 10vw;
-  top: 40vw;
+  width: 13vw;
+  top: 36vw;
   left: 49vw;
   transform: translate(-50%, -50%);
 }
@@ -42,4 +43,18 @@ main {
   width: 23vw;
   top: 30vw;
   left: 19vw;
+}
+
+.tree-1 {
+  position: absolute;
+  width: 28.2vw;
+  top: -3.2vw;
+  right: 20vw;
+}
+
+.tree-2 {
+  position: absolute;
+  width: 8.8vw;
+  top: 6.2vw;
+  right: -0.1vw;
 }
