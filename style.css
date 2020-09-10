@@ -23,11 +23,43 @@ main {
   width: 100vw;
 }
 
+.cloud-1 {
+  position: absolute;
+  width: 15vw;
+  top: 8vw;
+  animation: left-to-right 20s infinite linear -8s;
+}
+
+.cloud-2 {
+  position: absolute;
+  width: 15vw;
+  top: 3vw;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: left-to-right 24s infinite linear -2s;
+}
+
+.cloud-3 {
+  position: absolute;
+  width: 15vw;
+  top: 6vw;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: left-to-right 16s infinite linear -12s;
+}
+
 .plane {
   position: absolute;
-  width: 100vw;
-  top: 4vh;
-  left: 0;
+  width: 30vw;
+  top: 5.5vw;
+  animation: left-to-right 10s infinite linear 2s;
+}
+
+@keyframes left-to-right {
+  0% {
+    left: -30vw;
+  }
+  100% {
+    left: 110vw;
+  }
 }
 
 .cub-sitting {
