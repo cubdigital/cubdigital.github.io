@@ -82,21 +82,19 @@ main {
   cursor: pointer;
 }
 
-#bees {
+.angry-bee {
   display: none;
+  position: absolute;
+  width: 15vw;
 }
 
 .angry-bee-1 {
-  position: absolute;
-  width: 15vw;
   top: 32vw;
   left: 20vw;
   transform: rotate(90deg);
 }
 
 .angry-bee-2 {
-  position: absolute;
-  width: 15vw;
   top: 30vw;
   left: 32vw;
   transform: rotate(180deg);
