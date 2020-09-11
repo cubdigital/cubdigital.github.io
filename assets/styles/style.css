@@ -36,7 +36,6 @@ main {
   position: absolute;
   width: 15vw;
   top: 3vw;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   animation: left-to-right 24s infinite linear -2s;
 }
 
@@ -80,6 +79,27 @@ main {
   width: 23vw;
   top: 30vw;
   left: 19vw;
+  cursor: pointer;
+}
+
+#bees {
+  display: none;
+}
+
+.angry-bee-1 {
+  position: absolute;
+  width: 15vw;
+  top: 32vw;
+  left: 20vw;
+  transform: rotate(90deg);
+}
+
+.angry-bee-2 {
+  position: absolute;
+  width: 15vw;
+  top: 30vw;
+  left: 32vw;
+  transform: rotate(180deg);
 }
 
 .tree-1 {
