@@ -133,3 +133,19 @@ main {
   top: 52.5vw;
   width: 100vw;
 }
+
+.underground-flipped {
+  position: absolute;
+  top: 112vw;
+  width: 100vw;
+  filter: brightness(15%);
+  -webkit-filter: brightness(15%);
+}
+
+.ground-flipped {
+  position: absolute;
+  top: 171vw;
+  width: 100vw;
+  filter: brightness(15%);
+  -webkit-filter: brightness(15%);
+}
