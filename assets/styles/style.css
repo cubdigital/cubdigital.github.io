@@ -23,6 +23,7 @@ main {
   /* overflow-x: hidden; */
 }
 
+/* 1920 */
 .ground {
   position: absolute;
   top: 0;
@@ -129,24 +130,20 @@ main {
   transform: rotate(180deg);
 }
 
-.underground {
+.underground-1 {
   position: absolute;
-  top: 52.5vw;
+  top: 55vw;
   width: 100vw;
 }
 
-.underground-flipped {
+.underground-2 {
   position: absolute;
-  top: 112vw;
+  top: 113.6vw;
   width: 100vw;
-  filter: brightness(15%);
-  -webkit-filter: brightness(15%);
 }
 
-.ground-flipped {
+.underground-3 {
   position: absolute;
-  top: 171vw;
+  top: 165vw;
   width: 100vw;
-  filter: brightness(15%);
-  -webkit-filter: brightness(15%);
 }
