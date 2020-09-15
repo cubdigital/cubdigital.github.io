@@ -23,8 +23,7 @@ main {
   /* overflow-x: hidden; */
 }
 
-/* 1920 */
-.ground {
+.pohutakawa {
   position: absolute;
   top: 0;
   width: 100vw;
@@ -52,6 +51,14 @@ main {
   width: 15vw;
   top: 6vw;
   animation: left-to-right 16s infinite linear -12s;
+}
+
+.cloud-4 {
+  opacity: 0;
+  position: absolute;
+  width: 5vw;
+  top: 5vw;
+  animation: left-to-right 100s infinite linear -60s;
 }
 
 .plane {
@@ -128,22 +135,4 @@ main {
   top: 30vw;
   left: 32vw;
   transform: rotate(180deg);
-}
-
-.underground-1 {
-  position: absolute;
-  top: 55vw;
-  width: 100vw;
-}
-
-.underground-2 {
-  position: absolute;
-  top: 113.6vw;
-  width: 100vw;
-}
-
-.underground-3 {
-  position: absolute;
-  top: 165vw;
-  width: 100vw;
 }
