@@ -1,0 +1,54 @@
+body {
+  /* background-color: rgb(178, 225, 239); */
+  background-color: white;
+}
+
+.pohutakawa {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.instagram {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  width: 7vw;
+  top: 2vw;
+  right: 2vw;
+}
+
+.home {
+  position: absolute;
+  font-size: 2vw;
+  top: 52.5vw;
+  left: 43.4vw;
+  color: #f7e0aa;
+}
+
+.home:hover {
+  color: #e5ad5c;
+}
+
+.contact {
+  position: absolute;
+  font-size: 2vw;
+  top: 51.9vw;
+  left: 55.2vw;
+  color: #f7e0aa;
+}
+
+.contact:hover {
+  color: #e5ad5c;
+}
+
+.hubspot-wrapper {
+  width: 55vw;
+  left: 50vw;
+  padding: 2vw;
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 60vw;
+  background-color: white;
+  border-radius: 2vw;
+}

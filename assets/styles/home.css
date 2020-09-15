@@ -123,3 +123,15 @@
 .home:hover {
   color: #e5ad5c;
 }
+
+.contact {
+  position: absolute;
+  font-size: 2vw;
+  top: 51.9vw;
+  left: 55.2vw;
+  color: #f7e0aa;
+}
+
+.contact:hover {
+  color: #e5ad5c;
+}
