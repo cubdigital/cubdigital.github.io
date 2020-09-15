@@ -108,13 +108,6 @@
   </head>
   <body>
     <main>
-      <div class="above-ground"></div>
-      <img
-        class="pohutakawa"
-        src="assets/images/pohutakawa.png"
-        alt="cartoon landscape of a bear sitting between two mountains next to a honey pot"
-        ondragstart="return false;"
-      />
       <img
         class="cloud-4"
         src="assets/images/cloud-1.png"
@@ -145,18 +138,6 @@
         alt="catoon plane flying with cubdigital flag"
         ondragstart="return false;"
       />
-      <img
-        class="tree-1"
-        src="assets/images/tree-1.png"
-        alt="cartoon tree"
-        ondragstart="return false;"
-      />
-      <img
-        class="tree-2"
-        src="assets/images/tree-2.png"
-        alt="cartoon tree"
-        ondragstart="return false;"
-      />
       <a href="https://www.instagram.com/cubdigitalnz/" target="_blank">
         <img
           class="instagram"
@@ -165,6 +146,12 @@
           ondragstart="return false;"
         />
       </a>
+      <img
+        class="pohutakawa"
+        src="assets/images/pohutakawa.png"
+        alt="cartoon landscape of a bear sitting between two mountains next to a honey pot"
+        ondragstart="return false;"
+      />
       <img
         class="cub-sitting"
         src="assets/gifs/cubsitting.gif"
@@ -206,6 +193,28 @@
           bee.style.display = "block";
         }
       }
+
+      window.onload = function () {
+        let date = new Date();
+
+        const hours = date.getHours();
+
+        let lightValue;
+
+        if (hours < 12) {
+          lightValue = hours * 10;
+        } else {
+          lightValue = (12 - (hours - 12)) * 10;
+        }
+
+        if (hours === 6 || hours === 18) {
+          document.body.style.background = "linear-gradient(yellow, red)";
+        } else {
+          document.body.style.background = `rgb(${70 + lightValue}, ${
+            120 + lightValue
+          }, ${130 + lightValue})`;
+        }
+      };
     </script>
   </body>
 </html>
