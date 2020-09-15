@@ -115,7 +115,7 @@
 .home {
   position: absolute;
   font-size: 2vw;
-  top: 52.5vw;
+  top: 52vw;
   left: 43.4vw;
   color: #f7e0aa;
 }
@@ -127,11 +127,18 @@
 .contact {
   position: absolute;
   font-size: 2vw;
-  top: 51.9vw;
-  left: 55.2vw;
+  top: 51.3vw;
+  left: 55vw;
   color: #f7e0aa;
 }
 
 .contact:hover {
   color: #e5ad5c;
+}
+
+.drop {
+  position: absolute;
+  width: 1.8vw;
+  top: 77.5vw;
+  left: 58.6vw;
 }

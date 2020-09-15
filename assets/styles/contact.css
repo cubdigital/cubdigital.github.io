@@ -3,9 +3,15 @@ body {
   background-color: white;
 }
 
-.pohutakawa {
+.contact-img {
   position: absolute;
   top: 0;
+  width: 100vw;
+}
+
+.pohutakawa {
+  position: absolute;
+  top: 50vw;
   width: 100vw;
 }
 
@@ -21,7 +27,7 @@ body {
 .home {
   position: absolute;
   font-size: 2vw;
-  top: 52.5vw;
+  top: 52vw;
   left: 43.4vw;
   color: #f7e0aa;
 }
@@ -33,7 +39,7 @@ body {
 .contact {
   position: absolute;
   font-size: 2vw;
-  top: 51.9vw;
+  top: 51.5vw;
   left: 55.2vw;
   color: #f7e0aa;
 }
@@ -42,13 +48,13 @@ body {
   color: #e5ad5c;
 }
 
-.hubspot-wrapper {
-  width: 55vw;
-  left: 50vw;
-  padding: 2vw;
-  transform: translate(-50%, 0);
+.hbspt-form {
   position: absolute;
-  top: 60vw;
   background-color: white;
+  padding: 2vw;
   border-radius: 2vw;
+  top: 60vw;
+  width: 500px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
