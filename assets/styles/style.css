@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Alexe;
+  src: url("../fonts/Alexe-Regular.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +14,8 @@ html {
   height: 100%;
   user-select: none;
   overflow-x: hidden;
+  font-family: Alexe;
+  font-size: 40px;
 }
 body {
   /* background-color: rgb(178, 225, 239); */
@@ -17,122 +24,4 @@ body {
 
 main {
   position: relative;
-  /* height: 100vh; */
-  /* width: 100vw; */
-  /* overflow-y: auto; */
-  /* overflow-x: hidden; */
-}
-
-.pohutakawa {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-}
-
-.cloud-1 {
-  opacity: 0;
-  position: absolute;
-  width: 15vw;
-  top: 8vw;
-  animation: left-to-right 20s infinite linear -8s;
-}
-
-.cloud-2 {
-  opacity: 0;
-  position: absolute;
-  width: 15vw;
-  top: 3vw;
-  animation: left-to-right 24s infinite linear -2s;
-}
-
-.cloud-3 {
-  opacity: 0;
-  position: absolute;
-  width: 15vw;
-  top: 6vw;
-  animation: left-to-right 16s infinite linear -12s;
-}
-
-.cloud-4 {
-  opacity: 0;
-  position: absolute;
-  width: 5vw;
-  top: 5vw;
-  animation: left-to-right 100s infinite linear -60s;
-}
-
-.plane {
-  opacity: 0;
-  position: absolute;
-  width: 30vw;
-  top: 5.5vw;
-  animation: left-to-right 10s infinite linear 2s;
-}
-
-@keyframes left-to-right {
-  0% {
-    opacity: 1;
-    left: -30vw;
-  }
-  100% {
-    opacity: 1;
-    left: 110vw;
-  }
-}
-
-.tree-1 {
-  position: absolute;
-  width: 28.2vw;
-  top: -3.4vw;
-  right: 19.7vw;
-}
-
-.tree-2 {
-  position: absolute;
-  width: 9vw;
-  top: 6.4vw;
-  right: -0.1vw;
-}
-
-.instagram {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  position: absolute;
-  width: 7vw;
-  top: 2vw;
-  right: 2vw;
-}
-
-.cub-sitting {
-  position: absolute;
-  width: 13vw;
-  top: 36vw;
-  left: 49vw;
-  transform: translate(-50%, -50%);
-}
-
-.bee {
-  position: absolute;
-  width: 23vw;
-  top: 30vw;
-  left: 19vw;
-  cursor: pointer;
-}
-
-.angry-bee {
-  display: none;
-  position: absolute;
-  width: 15vw;
-}
-
-.angry-bee-1 {
-  top: 32vw;
-  left: 20vw;
-  transform: rotate(90deg);
-}
-
-.angry-bee-2 {
-  top: 30vw;
-  left: 32vw;
-  transform: rotate(180deg);
 }
