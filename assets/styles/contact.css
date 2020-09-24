@@ -9,12 +9,6 @@ body {
   width: 100vw;
 }
 
-.pohutakawa {
-  position: absolute;
-  top: 50vw;
-  width: 100vw;
-}
-
 .instagram {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
@@ -27,7 +21,7 @@ body {
 .home {
   position: absolute;
   font-size: 2vw;
-  top: 52vw;
+  top: 52.6vw;
   left: 43.4vw;
   color: #f7e0aa;
 }
@@ -39,7 +33,7 @@ body {
 .contact {
   position: absolute;
   font-size: 2vw;
-  top: 51.5vw;
+  top: 52vw;
   left: 55.2vw;
   color: #f7e0aa;
 }
