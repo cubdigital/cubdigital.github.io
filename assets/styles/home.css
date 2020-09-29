@@ -69,13 +69,21 @@
   right: -0.1vw;
 }
 
-.instagram {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
+.social {
   position: absolute;
-  width: 7vw;
   top: 2vw;
   right: 2vw;
+  display: flex;
+}
+
+.facebook,
+.twitter,
+.linkedin,
+.instagram {
+  margin-left: 1.5vw;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 7vw;
 }
 
 .cub-sitting {
