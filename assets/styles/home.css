@@ -164,3 +164,31 @@
   top: 78.6vw;
   left: 72vw;
 }
+
+.drop-4 {
+  position: absolute;
+  width: 2.4vw;
+  top: 204.3vw;
+  left: 20.2vw;
+}
+
+.drop-5 {
+  position: absolute;
+  width: 2.2vw;
+  top: 204.4vw;
+  left: 37vw;
+}
+
+.drop-6 {
+  position: absolute;
+  width: 2.6vw;
+  top: 204.1vw;
+  left: 53.3vw;
+}
+
+.drop-7 {
+  position: absolute;
+  width: 2.5vw;
+  top: 203.8vw;
+  left: 68.5vw;
+}
