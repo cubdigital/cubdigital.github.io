@@ -29,7 +29,7 @@ body {
 .home {
   position: absolute;
   font-size: 2vw;
-  top: 52.6vw;
+  top: 52.2vw;
   left: 43.4vw;
   color: #f7e0aa;
 }
@@ -42,7 +42,7 @@ body {
   position: absolute;
   font-size: 2vw;
   top: 52vw;
-  left: 55.2vw;
+  left: 55vw;
   color: #f7e0aa;
 }
 
@@ -55,7 +55,7 @@ body {
   background-color: white;
   padding: 2vw;
   border-radius: 2vw;
-  top: 60vw;
+  top: 125vw;
   width: 500px;
   left: 50%;
   transform: translate(-50%, 0);
