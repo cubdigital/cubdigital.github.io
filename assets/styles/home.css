@@ -144,9 +144,23 @@
   color: #e5ad5c;
 }
 
-.drop {
+.drop-1 {
+  position: absolute;
+  width: 1.5vw;
+  top: 78vw;
+  left: 50vw;
+}
+
+.drop-2 {
   position: absolute;
   width: 1.8vw;
   top: 77.5vw;
   left: 58.6vw;
+}
+
+.drop-3 {
+  position: absolute;
+  width: 1.4vw;
+  top: 78.6vw;
+  left: 72vw;
 }
