@@ -2,17 +2,17 @@ body {
   background-color: rgb(178, 225, 239);
 }
 
+.wwd-img {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
 .kite {
   position: absolute;
   width: 40vw;
   top: 8vw;
   left: 30vw;
-}
-
-.wwd-img {
-  position: absolute;
-  top: 0;
-  width: 100vw;
 }
 
 .social {
