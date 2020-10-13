@@ -144,6 +144,25 @@
   color: #e5ad5c;
 }
 
+.wwd {
+  position: absolute;
+  font-size: 2vw;
+  top: 51.4vw;
+  left: 68.3vw;
+  color: #f7e0aa;
+}
+
+.wwd:hover {
+  color: #e5ad5c;
+}
+
+.sleeping {
+  position: absolute;
+  width: 35vw;
+  top: 143vw;
+  left: 44vw;
+}
+
 .drop-1 {
   position: absolute;
   width: 1.5vw;

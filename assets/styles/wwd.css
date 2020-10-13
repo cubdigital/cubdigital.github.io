@@ -2,7 +2,14 @@ body {
   background-color: rgb(178, 225, 239);
 }
 
-.contact-img {
+.kite {
+  position: absolute;
+  width: 40vw;
+  top: 8vw;
+  left: 30vw;
+}
+
+.wwd-img {
   position: absolute;
   top: 0;
   width: 100vw;
@@ -28,7 +35,7 @@ body {
 .home {
   position: absolute;
   font-size: 2vw;
-  top: 52.2vw;
+  top: 52.6vw;
   left: 43.4vw;
   color: #f7e0aa;
 }
@@ -40,7 +47,7 @@ body {
 .contact {
   position: absolute;
   font-size: 2vw;
-  top: 51.8vw;
+  top: 52vw;
   left: 55vw;
   color: #f7e0aa;
 }
@@ -52,22 +59,11 @@ body {
 .wwd {
   position: absolute;
   font-size: 2vw;
-  top: 51.7vw;
+  top: 52.1vw;
   left: 68.3vw;
   color: #f7e0aa;
 }
 
 .wwd:hover {
   color: #e5ad5c;
-}
-
-.hbspt-form {
-  position: absolute;
-  background-color: white;
-  padding: 2vw;
-  border-radius: 2vw;
-  top: 125vw;
-  width: 500px;
-  left: 50%;
-  transform: translate(-50%, 0);
 }
